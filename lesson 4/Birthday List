@@ -1,0 +1,31 @@
+#Birthday List#
+friend1 = "Avani"
+friend1birthday = "18/5/2012"
+friend2 = "Ekanshi"
+friend2birthday = "25/9/2016"
+friend3 = "Ashish"
+friend3birthday = "11/9/2015"
+friend4 = "Nihira"
+friend4birthday = "28/9/2016"
+friend5 = "Aadhya"
+friend5birthday = "17/12/2016"
+print("                 Birthday List              ")
+print("  ")
+print(f"Name: {friend1} | Birthday: {friend1birthday}")
+print(f"Name: {friend2} | Birthday: {friend2birthday}")
+print(f"Name: {friend3} | Birthday: {friend3birthday}")
+print(f"Name: {friend4} | Birthday: {friend4birthday}")
+print(f"Name: {friend5} | Birthday: {friend5birthday}")
+print("  ")
+print("         Now, add your friend!          ")
+name = input ("enter the friend's name : ")
+birthday = input (f"enter {name}'s birthday in the 'DD/MM/YYYY' format (if a month with only one digit like sepmetber = '09', you can write '9'): ")
+print("  ") 
+print("            Birthday List           ")
+print("  ")
+print(f"Name: {friend1} | Birthday: {friend1birthday}")
+print(f"Name: {friend2} | Birthday: {friend2birthday}")
+print(f"Name: {friend3} | Birthday: {friend3birthday}")
+print(f"Name: {friend4} | Birthday: {friend4birthday}")
+print(f"Name: {friend5} | Birthday: {friend5birthday}")
+print(f"Name: {name} | Birthday: {birthday}")

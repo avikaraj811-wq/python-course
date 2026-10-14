@@ -23,4 +23,4 @@ print("after bonus crop : ", total)
 total-= 15 
 print("after seed resserve : ", total) 
 bags = total//25 
-print("after changes, the number of bags are : ", bags)
+print("after changes, the number of bags are : ", bags)  
