@@ -15,5 +15,5 @@ puddles = input("Are there puddles on the ground? Yes or No")
 if puddles == "Yes":
     print("bring your boots.")
 else:
-    print("it is dry today so bring your usual sneackers")
-print("Weather Outfit Check Complete")
+    print("it is dry today so bring your usual sneekers")
+print("Weather Outfit Check Complete") 
